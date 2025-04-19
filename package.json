@@ -1,0 +1,28 @@
+{
+  "name": "ideal",
+  "version": "1.0.0",
+  "description": "A custom IDE with a built-in terminal and code editor",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "IDE",
+    "Electron",
+    "Monaco Editor",
+    "xterm"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "codemirror": "^6.0.1",
+    "monaco-editor": "^0.52.2",
+    "xterm": "^5.3.0",
+    "xterm-addon-fit": "^0.8.0"
+  },
+  "devDependencies": {
+    "electron": "^35.1.2"
+  }
+}

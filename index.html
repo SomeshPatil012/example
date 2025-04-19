@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IDEAL - Code Editor</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Code Editor -->
+        <div class="editor-container">
+            <textarea id="code-editor" placeholder="Write your code here..."></textarea>
+            <button id="run-python">Run</button> <!-- Added Run Button -->
+        </div>
+
+        <!-- Terminal -->
+        <div class="terminal-container">
+            <div id="terminal"></div>
+            <input id="terminal-input" type="text" autofocus>
+        </div>
+    </div>
+
+    <script src="renderer.js" defer></script> <!-- Added 'defer' -->
+</body>
+</html>
